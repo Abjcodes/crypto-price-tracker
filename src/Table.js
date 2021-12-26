@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Table.css';
 
 export default function Table({image, name, symbol, price, volume, priceChange, marketcap}) {
     return (
